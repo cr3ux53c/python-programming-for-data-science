@@ -1,0 +1,6 @@
+a = list(range(10))
+a.append(a[3])
+a.pop(a[3])
+a.insert(3, a[-1])
+a.pop( )
+print(a)
